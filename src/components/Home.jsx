@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import MyImg from "../assets/heroImage.png";
 import {HiDownload} from "react-icons/hi";
 import {Link} from 'react-scroll';
