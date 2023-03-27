@@ -3,7 +3,7 @@ import FuelQueue from "../assets/portfolio/fuelQueue.jpg";
 import RoboCar from "../assets/portfolio/arduino.jpg";
 import Hospital from "../assets/portfolio/hospital.jpg";
 import ProgressionDetection from "../assets/portfolio/python.jpg";
-import Portfolio_web from "../assets/portfolio/portfolio.jpg";
+//import Portfolio_web from "../assets/portfolio/portfolio.jpg";
 // import elements from "aos/src/js/helpers/elements";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -39,13 +39,7 @@ const Portfolio = () => {
             desc: 'Make a fuel queue management system for filling stations with the related database using java',
             target: 'https://github.com/Vinuja2001/fuel-queue-management',
         },
-        {
-            id: 5,
-            src: Portfolio_web,
-            tittle: 'My portfolio website',
-            desc: 'Create a webpage about myself using React js',
-            target: 'https://github.com/Vinuja2001/portfolio'
-        },
+
     ]
 
     useEffect(() => {
