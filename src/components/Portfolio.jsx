@@ -4,6 +4,7 @@ import RoboCar from "../assets/portfolio/arduino.jpg";
 import Hospital from "../assets/portfolio/hospital.jpg";
 import ProgressionDetection from "../assets/portfolio/python.jpg";
 import Portfolio_web from "../assets/portfolio/portfolio.jpg";
+import ExternalApi from "../assets/portfolio/external.jpeg";
 // import elements from "aos/src/js/helpers/elements";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -46,6 +47,13 @@ const Portfolio = () => {
             desc: 'Create a webpage about myself using React js',
             target: 'https://github.com/Vinuja2001/portfolio'
         },
+        {
+            id: 6,
+            src: ExternalApi,
+            tittle: 'External API calling system',
+            desc: 'Create project to call external API and fetch data using Spring Boot , Rest API and Postman',
+            target: 'https://github.com/Vinuja2001/External_API_Calling_System'
+        }
     ]
 
     useEffect(() => {
@@ -62,7 +70,8 @@ const Portfolio = () => {
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 px-12 sm:px-0 pb-10">
                     {
                         portfolios.map(({id, src, tittle, desc, target}) => (
-                            <div key={id} className="w-80 shadow-md shadow-gray-600 rounded-lg bg-transparent" data-aos="fade-up">
+                            <div key={id} className="w-80 shadow-md shadow-gray-600 rounded-lg bg-transparent"
+                                 data-aos="fade-up">
                                 {/*<img src={src} alt="" className="rounded-md duration-200 hover:scale-105"/>*/}
                                 <div className="flex items-center justify-center bg-black rounded-b-lg">
                                     {/*<button className="w-1/2 px-6 py-3 m-4 duration-300 hover:scale-105">View</button>*/}
