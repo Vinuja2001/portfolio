@@ -155,7 +155,7 @@ const Experience = () => {
             src: restapi,
             title: "Rest API",
             style: 'shadow-emerald-500',
-            data: 'zoom-out-right'
+            data: 'zoom-out-left'
         }
     ]
 
