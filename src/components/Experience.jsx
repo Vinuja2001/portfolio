@@ -15,6 +15,9 @@ import php from "../assets/php.png";
 import python from "../assets/python.png";
 import tailwind from "../assets/tailwind.png";
 import wp from "../assets/wordpress.png";
+import postman from "../assets/postman.png";
+import springboot from "../assets/springboot.png";
+import restapi from "../assets/restapi.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -131,6 +134,27 @@ const Experience = () => {
             src: github,
             title: "Github",
             style: 'shadow-purple-500',
+            data: 'zoom-out-right'
+        },
+        {
+            id: 17,
+            src: postman,
+            title: "Postman",
+            style: 'shadow-orange-500',
+            data: 'zoom-out-down'
+        },
+        {
+            id: 18,
+            src: springboot,
+            title: "Spring Boot",
+            style: 'shadow-lime-500',
+            data: 'zoom-out-left'
+        },
+        {
+            id: 19,
+            src: restapi,
+            title: "Rest API",
+            style: 'shadow-emerald-500',
             data: 'zoom-out-right'
         }
     ]
