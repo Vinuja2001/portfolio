@@ -4,7 +4,7 @@ import RoboCar from "../assets/portfolio/arduino.jpg";
 import Hospital from "../assets/portfolio/hospital.jpg";
 import ProgressionDetection from "../assets/portfolio/python.jpg";
 import Portfolio_web from "../assets/portfolio/portfolio.jpg";
-import ExternalApi from "../assets/portfolio/external.jpeg";
+import ExternalApi from "../assets/portfolio/external.jpg";
 // import elements from "aos/src/js/helpers/elements";
 import Aos from "aos";
 import "aos/dist/aos.css";
